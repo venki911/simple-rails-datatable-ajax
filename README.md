@@ -1,6 +1,8 @@
 # simple-rails-datatable-ajax
 A simple demo on how to integrate  [Datatable With Ajax Source](https://www.datatables.net/examples/data_sources/ajax.html) into rails
 
+[Web Demo](http://simple-rails-datatable-ajax.herokuapp.com/)
+
 ####How to run
 1. git clone git@github.com:nlt2390/simple-rails-datatable-ajax.git
 2. Edit your config/database.yml
