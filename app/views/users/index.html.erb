@@ -1,0 +1,22 @@
+<table id="data-table" class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+
+<script>
+  $(function(){
+    $('#data-table').dataTable({
+      "order": [[ 0, "desc" ]],
+      "processing": true,
+      "serverSide": true,
+      "ajax": "/users/data_table"
+    })
+  });
+</script>
