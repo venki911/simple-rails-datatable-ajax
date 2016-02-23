@@ -9,7 +9,7 @@ A simple demo on how to integrate  [Datatable With Ajax Source](https://www.data
 5. rake db:migrate
 6. rake db:seed
 7. rails s
-8 Go to [http://localhost:3000](http://localhost:3000)
+8. Go to [http://localhost:3000](http://localhost:3000)
 
 #### Importants files
 1. [apps/controller/user_controller.rb](https://github.com/nlt2390/simple-rails-datatable-ajax/blob/master/app/controllers/users_controller.rb)
